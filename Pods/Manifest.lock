@@ -1,0 +1,44 @@
+PODS:
+  - Alamofire (5.1.0)
+  - Realm (10.7.1):
+    - Realm/Headers (= 10.7.1)
+  - Realm/Headers (10.7.1)
+  - RealmSwift (10.7.1):
+    - Realm (= 10.7.1)
+  - RxCocoa (6.1.0):
+    - RxRelay (= 6.1.0)
+    - RxSwift (= 6.1.0)
+  - RxRelay (6.1.0):
+    - RxSwift (= 6.1.0)
+  - RxSwift (6.1.0)
+  - SnapKit (5.0.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - RealmSwift
+  - RxCocoa (= 6.1.0)
+  - RxSwift
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Realm
+    - RealmSwift
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SnapKit
+
+SPEC CHECKSUMS:
+  Alamofire: 9d5c5f602928e512395b30950c5984eca840093c
+  Realm: 55bae3a2f42186360b54fd8783e884ae8656ab05
+  RealmSwift: 0d9bb38ad2cb953fc61d6827be5611972a75ca31
+  RxCocoa: 5c51f02d562cbd94629f6c26cf0c80fe4ab8d343
+  RxRelay: 483e1a19fad961b41f0b0c0bee506f46c1ae14fe
+  RxSwift: a834e5c538e89eca0cae86f403f4fbf0336786ce
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+
+PODFILE CHECKSUM: 2d4210d927633c931bb2692e121cbcd8ef2342ee
+
+COCOAPODS: 1.10.1

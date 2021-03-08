@@ -49,15 +49,15 @@ class HomeVM : NSObject {
             m.content = "\(dic)"
            
             let date = Date()
-            m.title = "结果数据\( date.timeIntervalSince1970)"
+            m.title = "结果数据\( Int(date.timeIntervalSince1970))"
             m.time = self.dataFormatter.string(from: date)
         
             self.model = m
             DataTool.insert(data: m)
-//            if self.isFirst {
-//                startTime()
-//                self.isFirst = false
-//            }
+            if self.isFirst {
+                startTime()
+                self.isFirst = false
+            }
         }
     }
     func stopTime(){
